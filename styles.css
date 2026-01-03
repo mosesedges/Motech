@@ -337,3 +337,13 @@
     }
   }
 }
+@layer button {
+  .button-link {
+    text-decoration: none;
+    border-radius: var(--border-radius-2);
+    padding: var(--space-1);
+    background-color: var(--background-accent-dark);
+    font-weight: 700;
+    font-family: var(--ff-heading);
+  }
+}
